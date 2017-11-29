@@ -1,18 +1,23 @@
 body {
-  padding-top: 5rem;
+  padding-top: 3em;
 }
-.starter-template {
-  padding: 3rem 1.5rem;
+.mission-statement {
+  padding: 3em 1.5rem;
   text-align: center;
 }
 
 
-header.masthead {
-  height: 100vh;
-  min-height: 650px;
+header.banner {
+  min-height: 250px;
   padding-top: 0;
   padding-bottom: 0;
 
-  background-image: url(../images/BusinessScrabbleOriginal.jpg);
+  background-image: url(../images/BusinessScrabbleMedium.jpg);
   background-position: center center;
+  background-repeat: no-repeat;
+  background-color: grey;
+}
+
+navbar-brand img {
+  max-height: 50px;
 }
