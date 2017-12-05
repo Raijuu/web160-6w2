@@ -50,3 +50,16 @@ header.banner {
   margin: 0px auto;
   float: none;
 }
+
+.boldname {
+  font-weight: 900;
+}
+
+.profilepic {
+  width: 240px;
+  height: 320px;
+}
+
+.centeredheading {
+  margin: 0 auto;
+}
