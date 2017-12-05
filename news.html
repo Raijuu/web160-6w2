@@ -22,7 +22,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
-  <a href="#"><img src="images/FancyLogo_SM.jpg"/> </a>
+  <a href="#"><img src="images/FancyLogo_SM.jpg" alt="Fancy Logo with a Compass and Mountains"/> </a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -31,24 +31,24 @@
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
 
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="directions.html">Directions</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="events.html">Events</a>
+      </li>
+
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="directions.html">Directions and Business Hours</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="events.html">Events and Activities</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="news.html">Sign up for our Newsletter</a>
+        <a class="nav-link" href="news.html">News<span class="sr-only">(current)</span></a>
       </li>
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
           <a class="dropdown-item" href="motto.html">Our Motto</a>
           <a class="dropdown-item" href="awards.html">Testimonials and Awards</a>
@@ -71,8 +71,33 @@
 <main role="main" class="container">
 
   <div class="mission-statement">
-    <h1>Our Business is designed to help you achieve your goals.</h1>
-    <p class="lead">When you have something that needs to be done quickly. Just call on us.<br> We are here to meet your needs and provide the best service possible, or your money back.</p>
+    <h1>Latest News:</h1>
+    <p class="lead">We are expanding our operations and have opened an office in Antarctica! <br> Expect speedy delivery of services worldwide in 2018.</p>
+
+    <br><br><br>
+
+    <h1>Sign up for our newsletter!</h1>
+    <p class="lead">Sign up here to stay informed on our latest news and product information. <br> Or just drop us a message to let us know what you think.</p>
+    <form action="mailto:admin@access-granted.org" method="post" enctype="text/plain">
+      First Name: <input type="text" name="firstname" placeholder="John"><br>
+      Last Name: <input type="text" name="lastname" placeholder="Smith"><br>
+
+      Inquiry Type:
+      <select name="request">
+        <option value="newsletter">News</option>
+        <option value="info">General Information Request</option>
+        <option value="feedback">Feedback</option>
+      </select><br>
+
+
+      Email: <input type="email" name="email"  placeholder="your@email.com"><br>
+
+      <br>Message:<br>
+      <textarea name="message" rows="5" cols="30" placeholder="Type your message here."> </textarea><br>
+
+
+      <br><input type="submit" value="Submit">
+    </form>
   </div>
 
 </main><!-- /.container -->

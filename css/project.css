@@ -12,12 +12,41 @@ header.banner {
   padding-top: 0;
   padding-bottom: 0;
 
-  background-image: url(../images/BusinessScrabbleMedium.jpg);
+  background-image: url(../images/BusinessLogoSmall.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-color: grey;
 }
 
-navbar-brand img {
+.navbar-brand img {
   max-height: 50px;
+}
+
+.calendar {
+  padding: 5px;
+  border-radius: 5px;
+  width: 60%;
+  margin: 0px auto;
+  float: none;
+}
+
+.calendar td,th {
+  width: 130px;
+  border: 1px solid black;
+  align: center; 
+  padding: 15px;
+  text-align: left;
+}
+
+.calendar tr:first-child th {
+  background-color: #b9def0;
+}
+
+
+.map {
+  padding: 5px;
+  border-radius: 5px;
+  width: 60%;
+  margin: 0px auto;
+  float: none;
 }
